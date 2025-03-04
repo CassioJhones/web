@@ -4,10 +4,11 @@ import { ArrowRight, Copy, } from "lucide-react";
 export default function Home() {
   return (
     <main>
-      <Button>
+      <Button type="submit">
         Enviar
         <ArrowRight />
       </Button>
+      
       <IconButton>
       <Copy />
       </IconButton>
